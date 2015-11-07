@@ -14,7 +14,7 @@ More on [Functional composition - Wikipedia](https://en.wikipedia.org/wiki/Funct
 
 ## Installing
 ```bash
-composer require srph/php-compose@latest
+composer require srph/compose
 ```
 
 ## Usage
