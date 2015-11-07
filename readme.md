@@ -4,13 +4,11 @@ Composing function calls in PHP
 ## Huh?
 Check [Functional composition - Wikipedia](https://en.wikipedia.org/wiki/Function_composition_(computer_science)).
 
-**TL;DR**:
-`compose` is a simple utility to transform this code:
+**TL;DR**: `compose` is a simple utility to do this:
 ```php
+// then
 $h($g($f($x)))
-```
-to this code:
-```php
+// now
 compose($h, $g, $f)(x);
 ```
 
