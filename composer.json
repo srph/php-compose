@@ -1,0 +1,18 @@
+{
+    "name": "srph/compose",
+    "descriptipn": "Composing function calls",
+    "autoload": {
+        "files": ["./src/compose.php"]
+    },
+    "authors": [
+        {
+            "name": "srph",
+            "email": "seraphipod@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "minimum-stability": "dev"
+}
