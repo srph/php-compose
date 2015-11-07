@@ -1,4 +1,4 @@
-## compose
+## compose [![Build Status](https://img.shields.io/travis/srph/compose.svg?style=flat-square)](https://travis-ci.org/srph/compose?branch=master) [![Latest Stable Version](https://poser.pugx.org/srph/compose/v/stable)](https://packagist.org/packages/srph/compose) [![Total Downloads](https://poser.pugx.org/srph/compose/downloads)](https://packagist.org/packages/srph/compose) [![Latest Unstable Version](https://poser.pugx.org/srph/compose/v/unstable)](https://packagist.org/packages/srph/compose) [![License](https://poser.pugx.org/srph/compose/license)](https://packagist.org/packages/srph/compose)
 Composing function calls in PHP
 
 ## Huh?
