@@ -2,7 +2,7 @@
 Composing function calls in PHP
 
 ## Huh?
-Check [Functiona composition in Wikipedia](https://en.wikipedia.org/wiki/Function_composition_(computer_science)).
+Check [Functional composition - Wikipedia](https://en.wikipedia.org/wiki/Function_composition_(computer_science)).
 
 **TL;DR**:
 `compose` is a simple utility to transform this code:
