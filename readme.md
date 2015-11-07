@@ -2,15 +2,15 @@
 Composing function calls in PHP
 
 ## Huh?
-Check [Functional composition - Wikipedia](https://en.wikipedia.org/wiki/Function_composition_(computer_science)).
-
-**TL;DR**: `compose` is a simple utility to do this:
+`compose` is a simple utility to do this:
 ```php
 // then
 $h($g($f($x)))
 // now
 compose($h, $g, $f)(x);
 ```
+
+More on [Functional composition - Wikipedia](https://en.wikipedia.org/wiki/Function_composition_(computer_science)).
 
 ## Installing
 ```bash
