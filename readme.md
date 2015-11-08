@@ -19,8 +19,8 @@ composer require srph/compose
 
 ## Usage
 ```php
-$square = function(n) {
-	return n * N;
+$square = function($n) {
+	return $n * $n;
 }
 
 $pow = function($exponent) {
@@ -28,6 +28,8 @@ $pow = function($exponent) {
 		for (;$exponent--;) {
 			$n .= $n;
 		}
+		
+		return $n;
 	}
 }
 
