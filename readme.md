@@ -16,6 +16,7 @@ More on [Functional composition - Wikipedia](https://en.wikipedia.org/wiki/Funct
 ```bash
 composer require srph/compose
 ```
+PHP `>=5.4` is supported.
 
 ## Usage
 ```php
