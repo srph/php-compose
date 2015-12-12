@@ -1,6 +1,6 @@
 {
     "name": "srph/compose",
-    "descriptipn": "Composing function calls",
+    "description": "Composing function calls",
     "autoload": {
         "files": ["./src/compose.php"]
     },
