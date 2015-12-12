@@ -14,13 +14,14 @@ More on [Functional composition - Wikipedia](https://en.wikipedia.org/wiki/Funct
 
 ## Installing
 ```bash
-composer require srph/php-compose@latest
+composer require srph/compose
 ```
+PHP `>=5.4` is supported.
 
 ## Usage
 ```php
-$square = function(n) {
-	return n * N;
+$square = function($n) {
+	return $n * $n;
 }
 
 $pow = function($exponent) {
@@ -28,6 +29,8 @@ $pow = function($exponent) {
 		for (;$exponent--;) {
 			$n .= $n;
 		}
+		
+		return $n;
 	}
 }
 
