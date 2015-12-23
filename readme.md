@@ -2,12 +2,10 @@
 Composing function calls in PHP
 
 ## Huh?
-`compose` is a simple utility to do this:
-```php
-// then
-$h($g($f($x)))
-// now
-compose($h, $g, $f)(x);
+Here's a diff example (before and after):
+```diff
+- $h($g($f($x)))
++ compose($h, $g, $f)(x);
 ```
 
 More on [Functional composition - Wikipedia](https://en.wikipedia.org/wiki/Function_composition_(computer_science)).
